@@ -199,11 +199,9 @@
 <a class="nav-link font-label-caps text-label-caps text-on-surface-variant hover:text-tertiary transition-all duration-300" href="#education">Education</a>
 <a class="nav-link font-label-caps text-label-caps text-on-surface-variant hover:text-tertiary transition-all duration-300" href="#contact">Contact</a>
 </div>
-<!-- Download CV: put your PDF next to this HTML file with this exact name -->
-<a href="Ibrahem_Abu_Hantash_CV.pdf" download="Ibrahem_Abu_Hantash_CV.pdf" class="bg-tertiary text-on-tertiary px-6 py-2 rounded-full font-label-caps text-label-caps font-bold shadow-glow active:scale-95 transition-all hover:brightness-110 hover:scale-105 cursor-pointer inline-flex items-center gap-2">
-<span class="material-symbols-outlined text-[18px]">download</span>
+<button class="bg-tertiary text-on-tertiary px-6 py-2 rounded-full font-label-caps text-label-caps font-bold shadow-glow active:scale-95 transition-all hover:brightness-110 hover:scale-105 cursor-pointer">
                 Download CV
-            </a>
+            </button>
 </nav>
 </header>
 <main>
@@ -253,116 +251,156 @@
 <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Technical <span class="text-tertiary">Arsenal</span></h2>
 <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">A multi-layered approach to building modern mobile ecosystems and performant backend integrations.</p>
 </div>
-<div class="space-y-12">
-<!-- Category: Mobile Ecosystem -->
-<div class="space-y-6">
-<h3 class="font-label-caps text-label-caps text-tertiary border-l-2 border-tertiary pl-4">Mobile Ecosystem</h3>
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-stack-gap">
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]" style="font-variation-settings: 'FILL' 1;">widgets</span>
+<div class="space-y-12"><!-- Category 1: Mobile Ecosystem -->
+<div class="space-y-4">
+  <div class="flex items-center gap-2">
+    <span class="text-tertiary font-bold text-lg leading-none">|</span>
+    <h3 class="font-code-sm text-sm text-tertiary tracking-wide font-semibold">Mobile Ecosystem</h3>
+  </div>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+    <!-- Flutter -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M14.3 2.5L3.8 13l3.2 3.2L20.8 2.5h-6.5z" opacity="0.9"></path>
+          <path d="M14.3 11.5l-5.3 5.3 5.3 5.3h6.5l-5.3-5.3 5.3-5.3h-6.5z"></path>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Flutter</span>
+    </div>
+    <!-- Android Native -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary fill-current" viewBox="0 0 24 24">
+          <path d="M6 18c0 .55.45 1 1 1h10c.55 0 1-.45 1-1v-4H6v4zm1.5-6.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM17.5 5.2l1.6-2.7a.6.6 0 1 0-1-.6l-1.6 2.7c-1.3-.6-2.8-.9-4.5-.9s-3.2.3-4.5.9L5.9 1.9a.6.6 0 1 0-1 .6l1.6 2.7C3.9 6.8 2 9.8 2 13.5h20c0-3.7-1.9-6.7-4.5-8.3z"></path>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Android Native</span>
+    </div>
+    <!-- State Management -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <polygon points="12 3 21 7.5 12 12 3 7.5 12 3"></polygon>
+          <polyline points="3 12 12 16.5 21 12"></polyline>
+          <polyline points="3 16.5 12 21 21 16.5"></polyline>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">State Management</span>
+    </div>
+    <!-- UI/UX Design -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-tertiary fill-current" viewBox="0 0 24 24"><path d="M20 3H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h6v2H8v1.5h8V19h-2v-2h6c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 12H4V5h16v10z"></path><path d="M6.8 7.5v4.2c0 .7.5 1.3 1.2 1.3s1.2-.6 1.2-1.3V7.5h-.9v4.2c0 .3-.1.5-.3.5s-.3-.2-.3-.5V7.5H6.8zm3.8 0l1.1 2.2 1.1-2.2h1.1l-1.6 3 1.7 3h-1.1l-1.2-2.3L10.5 13.5H9.4l1.7-3-1.6-3h1.1zm4.7 0l-1.8 6h.8l1.8-6h-.8zm2.5 0h1v6h-1v-6z"></path></svg></div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">UI/UX Design</span>
+    </div>
+    <!-- Location Services -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+          <line x1="8" y1="2" x2="8" y2="18"></line>
+          <line x1="16" y1="6" x2="16" y2="22"></line>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Location Services</span>
+    </div>
+  </div>
 </div>
-<span class="font-label-caps text-[10px] text-on-surface">Flutter</span>
+
+<!-- Category 2: Core Logic -->
+<div class="space-y-4">
+  <div class="flex items-center gap-2">
+    <span class="text-tertiary font-bold text-lg leading-none">|</span>
+    <h3 class="font-code-sm text-sm text-tertiary tracking-wide font-semibold">Core Logic</h3>
+  </div>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+    <!-- Dart -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <polyline points="7 8 3 12 7 16"></polyline>
+          <polyline points="17 8 21 12 17 16"></polyline>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Dart</span>
+    </div>
+    <!-- Python -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary fill-current" viewBox="0 0 24 24">
+          <path d="M11.9 2C7.3 2 7.6 4 7.6 4l.006 2h4.4v.6H5.4S2.5 6.4 2.5 11s2.5 4.5 2.5 4.5h1.5v-2.1s-.1-2.5 2.5-2.5h4.2s2.4 0 2.4-2.3V4.3S16.5 2 11.9 2zm-2.4 1.3a.85.85 0 1 1 0 1.7.85.85 0 0 1 0-1.7zm2.6 18.7c4.6 0 4.3-2 4.3-2l-.006-2H12v-.6h6.6s2.9.2 2.9-4.4-2.5-4.5-2.5-4.5h-1.5v2.1s.1 2.5-2.5 2.5h-4.2s-2.4 0-2.4 2.3v4.3s-.9 2.3 3.7 2.3zm2.4-1.3a.85.85 0 1 1 0-1.7.85.85 0 0 1 0 1.7z"></path>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Python</span>
+    </div>
+    <!-- C++ / Java -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="flex items-center justify-center gap-2 group-hover:scale-110 transition-transform"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuASyrlI4uokDVnvXucbq8gR6ObeK0CzpsRprAnnTfSk-6yxU127_BTQcg3_PaU3fAYaBAphMm4M5St_Zn5Ug-uKtFjX6CxtsxVd_2IJ27YuoCCUu4ka6DUqGvXhk-X-NYlNXHGT-OFHhx5woYnOv0viCO9fsmspm3Yz8_pNrR8Zp2vW3SGbKWpZmGNyUT1pIZ4s-_iUSHwuWfY7ppQtw1fymwxyuY_gr6SNswVUhjJfvPfFS1TK2XLoxLHNgxUrCYVyIA" alt="C++" class="w-7 h-7 object-contain drop-shadow"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuByXHHwlZsNkwu8xfGkKAsNMM0n6Xhl-YRPUxruisPJAXHRkyMdqVyN8loCdroKmCqnUDNlnwV4rd57yuP6vMXTrtdzFbX0iZvWfwgpZu4FxVd8F4Bc_Wa-m5ekPkB3OeUas81nfX8nlCbdJ8StnltLjF5Opn2SPl_a_qSvoeHBnziNz4DVBdxpZ3z5VM_mATGafkBZKg1N53cEdBfARR52Os8mjm7jP6yDyQYZ_lELhrBh_ZZaocpAYUlU3FpOFFzGPA" alt="Java" class="w-7 h-7 object-contain drop-shadow"></div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">C++ / Java</span>
+    </div>
+    <!-- Algorithms -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-tertiary fill-none stroke-current" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M11 4.5A4.5 4.5 0 0 0 6.5 9c0 .6.1 1.2.3 1.7A4 4 0 0 0 4 14.5c0 2 1.4 3.6 3.3 3.9.5 1.8 2.1 3.1 4 3.1" stroke-width="1.7"></path><rect x="11" y="7" width="6" height="9" rx="1" stroke-width="1.7" fill="currentColor" fill-opacity="0.15"></rect><path d="M17 9h3M17 11.5h4M17 14h3M14 7V4M12 7V5M14 16v3M12 16v2" stroke-width="1.5"></path><circle cx="20" cy="9" r="0.8" fill="currentColor"></circle><circle cx="21" cy="11.5" r="0.8" fill="currentColor"></circle><circle cx="20" cy="14" r="0.8" fill="currentColor"></circle><circle cx="14" cy="4" r="0.8" fill="currentColor"></circle><circle cx="14" cy="19" r="0.8" fill="currentColor"></circle></svg></div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Algorithms</span>
+    </div>
+    <!-- System Analysis -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="9" height="9" rx="2" stroke-width="1.7" fill="currentColor" fill-opacity="0.15"></rect><path d="M4.5 8.5L6.5 4l2 4.5M5.2 7.3h2.6" stroke-width="1.3"></path><rect x="11" y="11" width="11" height="11" rx="2" stroke-width="1.7" fill="currentColor" fill-opacity="0.15"></rect><circle cx="14.5" cy="14.5" r="1" fill="currentColor"></circle><path d="M12 20.5l3-3 2.5 2 2.5-3.5 2 4.5" stroke-width="1.3"></path><path d="M11 4.5h8M19 4.5a1.2 1.2 0 1 1 0 0M11 7.5h5a1.5 1.5 0 1 1 0 0M5 11v6a1.5 1.5 0 0 0 3 0M8 20.5H5a1.5 1.5 0 1 1 0 0" stroke-width="1.4"></path><circle cx="19" cy="4.5" r="1" fill="currentColor"></circle><circle cx="17.5" cy="7.5" r="1" fill="currentColor"></circle><circle cx="8" cy="17" r="1" fill="currentColor"></circle><circle cx="3.5" cy="20.5" r="1" fill="currentColor"></circle></svg></div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">System Analysis</span>
+    </div>
+  </div>
 </div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">smartphone</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Android Native</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">layers</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">State Management</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">animation</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">UI/UX Design</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">map</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Location Services</span>
-</div>
-</div>
-</div>
-<!-- Category: Core Logic -->
-<div class="space-y-6">
-<h3 class="font-label-caps text-label-caps text-tertiary border-l-2 border-tertiary pl-4">Core Logic</h3>
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-stack-gap">
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">code</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Dart</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">terminal</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Python</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">memory</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">C++ / Java</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">functions</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Algorithms</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">architecture</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">System Analysis</span>
-</div>
-</div>
-</div>
-<!-- Category: Integrations & Backend -->
-<div class="space-y-6">
-<h3 class="font-label-caps text-label-caps text-tertiary border-l-2 border-tertiary pl-4">Integrations &amp; Backend</h3>
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-stack-gap">
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">database</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Firebase</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">api</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">RESTful APIs</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">settings_ethernet</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">PHP Backend</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">cloud</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">AWS Essentials</span>
-</div>
-<div class="slate-gradient p-6 rounded-xl border border-glass-border kinetic-border flex flex-col items-center gap-3 tilt-card cursor-pointer hover:shadow-glow">
-<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center">
-<span class="material-symbols-outlined text-tertiary text-[20px]">html</span>
-</div>
-<span class="font-label-caps text-[10px] text-on-surface">Web Technologies</span>
-</div>
-</div>
-</div>
-</div>
+
+<!-- Category 3: Integrations & Backend -->
+<div class="space-y-4">
+  <div class="flex items-center gap-2">
+    <span class="text-tertiary font-bold text-lg leading-none">|</span>
+    <h3 class="font-code-sm text-sm text-tertiary tracking-wide font-semibold">Integrations &amp; Backend</h3>
+  </div>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+    <!-- Firebase -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <ellipse cx="12" cy="5" rx="8" ry="3"></ellipse>
+          <path d="M20 5v6c0 1.66-3.58 3-8 3s-8-1.34-8-3V5"></path>
+          <path d="M4 11v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"></path>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Firebase</span>
+    </div>
+    <!-- RESTful APIs -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLenXYytk2KO9VwkaSYlhBOT5FdVMBPFtq56M80J-bpDXSyOm0QlXuzGREy-8JJBTjutG_CNK2zriNC3cPW2zYlh2jv8qfDoAwpEVXyK9q8AvriDmR_R1GyqyIyKPc9HjDpc4Zs21dzj-w2FGyR6hOpOvuEhlgddFeOYMSnzPTdZu02-F51joF1Z6-Tf2ZH5DgLlgwBy6nAdtcyeYYkggposS9JKf9FpGdn7I_FWmz3S62Dnsn3ho1c4QzmKwPc8rlzw" alt="RESTful APIs" class="w-8 h-8 object-contain"></div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">RESTful APIs</span>
+    </div>
+    <!-- PHP Backend -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <polyline points="8 9 5 12 8 15"></polyline>
+          <polyline points="16 9 19 12 16 15"></polyline>
+          <line x1="10" y1="12" x2="14" y2="12"></line>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">PHP Backend</span>
+    </div>
+    <!-- AWS Essentials -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+        </svg>
+      </div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">AWS Essentials</span>
+    </div>
+    <!-- Web Technologies -->
+    <div class="slate-gradient p-5 rounded-xl border border-glass-border hover:border-tertiary/40 flex flex-col items-center justify-center gap-3 tilt-card cursor-pointer hover:shadow-glow group transition-all duration-300 min-h-[120px]">
+      <div class="w-11 h-11 rounded-lg bg-tertiary/10 border border-tertiary/20 flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-tertiary" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" stroke-width="1.7" fill="currentColor" fill-opacity="0.1"></rect><path d="M9.5 7L7 9.5l2.5 2.5M14.5 7l2.5 2.5-2.5 2.5M12.5 6.5l-1 6" stroke-width="1.8"></path><path d="M5 14h4M11 14h7M8 21h8M12 17v4" stroke-width="1.6"></path><circle cx="5" cy="14" r="0.4" fill="currentColor"></circle></svg></div>
+      <span class="font-code-sm text-xs text-on-surface font-medium text-center tracking-tight group-hover:text-tertiary transition-colors">Web Technologies</span>
+    </div>
+  </div>
+</div></div>
 </div>
 </section>
 <!-- Featured Works Section -->
@@ -396,7 +434,8 @@
 </div>
 </div>
 <!-- Project 2: Goods Distribution -->
-<a href="https://ibrahemabuhantash.github.io/Goods-Distribution-System-" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow">
+<!-- Project 2: Goods Distribution -->
+<a href="https://ibrahemabuhantash.github.io/Goods-Distribution-System-" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
 <div class="relative h-64 overflow-hidden">
 <img alt="Goods Distribution System" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA70-GlzJx7w_Jj5i_EIehW-ElCBT22d2qcNh3cH17B7m3gooOqLBywnBpbZJr6EtdjiDrp1sqtaf98bhVD5_rM58iH4cI1go_YrpONbW9FlN15GI3088yO__enm8s45sTR4cWaXMhF7bzLmMDt-s_rN5lHbBzQbg0huOSZZ-ue2Ua5lIhB-4rElDQGCuW5cg6qmpfPkwuMGjNHwfvNdbDQt9Q_wSikrAdaOwOGloDDJJqxuOcckPM1jZGR5NHmMni4Vg">
 <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-60"></div>
@@ -507,7 +546,7 @@
 </div>
 </div>
 </div><!-- Project: Flutter Quiz App -->
-<a href="https://ibrahemabuhantash.github.io/flutter-quiz-app/" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow">
+<a href="https://ibrahemabuhantash.github.io/flutter-quiz-app/" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
 <div class="relative h-64 overflow-hidden">
 <img alt="Modern sleek mobile app interface for Flutter Quiz App" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNxKM_BA7d6HvqJS1nE80SGYlPbnyDz_SvNeLy5GvyzJzizZEbMHDD_2djUaKOzcXsbX5zc_vRX4bZWMw3av90JDSrIepw3HrwFmP8JXRg89nMm20Z2ooUe635eImtV7aL7oX67QBG4Awxni7Me2zoF55wO6jsx-EZq87It1lpWW1tzB52t_t9Ao7qNY0n0U2L-ThXqeSW_EwDNk1sgiN1WOeh6EYfP9rK_Kv-lMP6Nir9HGVXSEqe">
 <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-60"></div>
@@ -570,7 +609,7 @@
 </div>
 </a>
 <!-- Project: Flutter Expense Tracker -->
-<a href="https://ibrahemabuhantash.github.io/expense-tracker-flutter/" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow">
+<a href="https://ibrahemabuhantash.github.io/expense-tracker-flutter/" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
 <div class="relative h-64 overflow-hidden">
 <img alt="Modern mobile app interface for Flutter Expense Tracker" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWTVVQZOe_mpaoS2Og6wjB1AaiKWiuQ1G-SuE6dWHPNEYB-fc9qnFdKSfBpRPMw6GBqvDBP1sEqAQQOaEodLUX7wuDlRm49HP2jl6HF50kLBt8T8uuglrmkKuU5hEjzaTwHm9HIoSYxigiL-uur2TcszOMtJkpO41uMwcg3Kq-uekE6WORZbDoHoSoyQU9cieuiykFKmoPbIW1vxEYyYFoAwojyqchekB7OSdU_liGRMwv0340IiCN">
 <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-60"></div>
@@ -591,7 +630,7 @@
 </div>
 </a>
 <!-- Project: Flutter Dice Roller -->
-<a href="https://github.com/ibrahemabuhantash/flutter-dice-roller" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow">
+<a href="https://github.com/ibrahemabuhantash/flutter-dice-roller" target="_blank" rel="noopener noreferrer" class="group slate-gradient rounded-xl overflow-hidden border border-glass-border hover:border-tertiary/30 transition-all flex flex-col h-full tilt-card shadow-lg hover:shadow-glow" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
 <div class="relative h-64 overflow-hidden bg-surface-container flex items-center justify-center border-b border-glass-border">
 <div class="w-20 h-20 rounded-2xl bg-tertiary/10 border border-tertiary/30 flex items-center justify-center group-hover:scale-110 transition-transform duration-500 shadow-glow">
 <span class="material-symbols-outlined text-tertiary text-[48px]">casino</span>
@@ -651,41 +690,31 @@
 <div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
 <div class="flex justify-between items-start">
 <div class="flex items-start gap-4">
-<div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20">
-<span class="material-symbols-outlined text-tertiary">verified</span>
-</div>
+<div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20 shrink-0"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2 2.5L3.8 12.9l3.2 3.2L20.6 2.5h-6.4z" fill="#5ffbd7" opacity="0.9"></path><path d="M14.2 13.9L8.6 19.5l3.2 3.2 8.8-8.8h-6.4z" fill="#38debb"></path><path d="M8.6 13.9l3.2-3.2 3.2 3.2-3.2 3.2-3.2-3.2z" fill="#4a8eff"></path></svg></div>
 <div class="space-y-1">
 <div class="flex items-center gap-2">
 <span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">Professional Certificate</span>
+<span class="font-code-sm text-[11px] text-tertiary/90 font-medium">Academind • Maximilian Schwarzmüller</span>
 </div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Flutter &amp; Dart - The Complete Guide Certification</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Academind by Maximilian Schwarzmüller</p>
+<h3 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">Flutter &amp; Dart - The Complete Guide</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Comprehensive Mobile Development &amp; State Management</p>
 </div>
 </div>
 <div class="hidden sm:block">
 <p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Issued By</p>
-<p class="font-code-sm text-code-sm text-tertiary text-right">Udemy / Academind</p>
+<p class="font-code-sm text-code-sm text-tertiary font-bold text-right">Udemy / Academind</p>
 </div>
 </div>
-<div class="space-y-4 p-4 border-b border-glass-border">
-<div class="flex items-center gap-3">
-<div class="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center border border-tertiary/20">
-<span class="material-symbols-outlined text-tertiary">workspace_premium</span>
-</div>
-<div>
-<h4 class="font-headline-md text-xl text-on-surface">Flutter &amp; Dart - The Complete Guide</h4>
-<p class="text-on-surface-variant text-sm">Academind by Maximilian Schwarzmüller</p>
-</div>
-</div>
+<div class="space-y-4 p-4 border-t border-b border-glass-border">
 <p class="text-on-surface-variant/80 text-sm leading-relaxed">
-        A comprehensive course covering the fundamentals and advanced concepts of Flutter development, including state management, custom UI, and backend integration.
-    </p>
+A comprehensive course covering the fundamentals and advanced concepts of Flutter development, including bloc/provider state management, responsive UI design, device features, and backend integrations.
+</p>
 </div>
 <div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border">
 <div class="flex items-center gap-3">
 <span class="font-code-sm text-[12px] text-on-surface-variant">Course Focus</span>
 <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
-<span class="font-code-sm text-[12px] text-tertiary">Advanced Mobile Development</span>
+<span class="font-code-sm text-[12px] text-tertiary font-medium">Advanced Mobile Development</span>
 </div>
 <div class="flex gap-2">
 <span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Flutter</span>
@@ -728,7 +757,111 @@
 <span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Software Dev</span>
 </div>
 </div>
-</div><div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group"><div class="flex justify-between items-start"><div class="flex items-start gap-4"><div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20"><span class="material-symbols-outlined text-tertiary">smart_toy</span></div><div class="space-y-1"><div class="flex items-center gap-2"><span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">PRO Certificate</span><span class="font-code-sm text-[10px] text-on-surface-variant">Intermediate • 9h 55m</span></div><h3 class="font-headline-md text-headline-md text-on-surface">Agentic AI</h3><p class="font-body-md text-body-md text-on-surface-variant">Instructor: Andrew Ng • DeepLearning.AI</p></div></div><div class="hidden sm:block"><p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Issued By</p><p class="font-code-sm text-code-sm text-tertiary text-right">DeepLearning.AI</p></div></div><div class="space-y-4 p-4 border-b border-glass-border"><p class="text-on-surface-variant/80 text-sm leading-relaxed">Comprehensive study of autonomous AI agents, multi-agent workflows, tool integration, and reasoning architectures taught by Andrew Ng.</p></div><div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border"><div class="flex items-center gap-3"><span class="font-code-sm text-[12px] text-on-surface-variant">Specialization</span><span class="w-1 h-1 rounded-full bg-outline-variant"></span><span class="font-code-sm text-[12px] text-tertiary">Autonomous Systems &amp; LLM Agents</span></div><div class="flex flex-wrap gap-2"><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Agentic AI</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">LLM Agents</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">DeepLearning.AI</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Andrew Ng</span></div></div></div><div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group"><div class="flex justify-between items-start"><div class="flex items-start gap-4"><div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20"><span class="material-symbols-outlined text-tertiary">design_services</span></div><div class="space-y-1"><div class="flex items-center gap-2"><span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">UI/UX Design &amp; Prototyping</span><span class="font-code-sm text-[10px] text-on-surface-variant">9 Complete Lessons</span></div><h3 class="font-headline-md text-headline-md text-on-surface">Basics of Figma for UX Design</h3><p class="font-body-md text-body-md text-on-surface-variant">Figma UI/UX Fundamentals</p></div></div><div class="hidden sm:block"><p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Platform</p><p class="font-code-sm text-code-sm text-tertiary text-right">UI/UX Track</p></div></div><div class="space-y-4 p-4 border-b border-glass-border"><p class="text-on-surface-variant/80 text-sm leading-relaxed">Core foundations of user experience design, wireframing, component architecture, responsive auto-layout, and interactive prototyping in Figma.</p></div><div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border"><div class="flex items-center gap-3"><span class="font-code-sm text-[12px] text-on-surface-variant">Discipline</span><span class="w-1 h-1 rounded-full bg-outline-variant"></span><span class="font-code-sm text-[12px] text-tertiary">Interface Design &amp; Systems</span></div><div class="flex flex-wrap gap-2"><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Figma</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">UI/UX</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Wireframing</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Interactive Prototyping</span></div></div></div><div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group"><div class="flex justify-between items-start"><div class="flex items-start gap-4"><div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20"><span class="material-symbols-outlined text-tertiary">code_blocks</span></div><div class="space-y-1"><div class="flex items-center gap-2"><span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">Full In-Depth Flutter Track</span><span class="font-code-sm text-[10px] text-on-surface-variant">69 Comprehensive Videos</span></div><h3 class="font-headline-md text-headline-md text-on-surface">Learn Flutter from Zero to Hero (2023 - 2024)</h3><p class="font-body-md text-body-md text-on-surface-variant">Instructor: Wael Abo Hamza</p></div></div><div class="hidden sm:block"><p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Track</p><p class="font-code-sm text-code-sm text-tertiary text-right">Mobile Engineering</p></div></div><div class="space-y-4 p-4 border-b border-glass-border"><p class="text-on-surface-variant/80 text-sm leading-relaxed">Intensive end-to-end Flutter development track covering state management, responsive widgets, REST API integration, animations, and production deployment.</p></div><div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border"><div class="flex items-center gap-3"><span class="font-code-sm text-[12px] text-on-surface-variant">Track Focus</span><span class="w-1 h-1 rounded-full bg-outline-variant"></span><span class="font-code-sm text-[12px] text-tertiary">Cross-Platform Architecture</span></div><div class="flex flex-wrap gap-2"><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Flutter</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Dart</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Mobile Architecture</span><span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Wael Abo Hamza</span></div></div></div></div>
+</div><div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+<div class="flex justify-between items-start">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20 shrink-0"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L14.2 7.8L20 10L14.2 12.2L12 18L9.8 12.2L4 10L9.8 7.8L12 2Z" fill="#5ffbd7"></path><circle cx="19" cy="5" r="2" fill="#4a8eff"></circle><circle cx="5" cy="19" r="2" fill="#4a8eff"></circle><path d="M17.5 6.5L13.8 8.7M6.5 17.5L10.2 13.3" stroke="#38debb" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 2"></path><circle cx="12" cy="10" r="1.5" fill="#07122a"></circle></svg></div>
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">PRO Certificate</span>
+<span class="font-code-sm text-[11px] text-tertiary/90 font-medium">DeepLearning.AI • Andrew Ng</span>
+<span class="font-code-sm text-[10px] text-on-surface-variant/80 hidden sm:inline">• 9h 55m</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">Agentic AI &amp; Multi-Agent Workflows</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Autonomous Systems &amp; LLM Reasoning Architectures</p>
+</div>
+</div>
+<div class="hidden sm:block">
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Issued By</p>
+<p class="font-code-sm text-code-sm text-tertiary font-bold text-right">DeepLearning.AI</p>
+</div>
+</div>
+<div class="space-y-4 p-4 border-t border-b border-glass-border">
+<p class="text-on-surface-variant/80 text-sm leading-relaxed">Comprehensive study of autonomous AI agents, multi-agent workflows, tool integration, and reasoning architectures taught by Andrew Ng.</p>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border">
+<div class="flex items-center gap-3">
+<span class="font-code-sm text-[12px] text-on-surface-variant">Specialization</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-code-sm text-[12px] text-tertiary font-medium">Autonomous Systems &amp; LLM Agents</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Agentic AI</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">LLM Agents</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">DeepLearning.AI</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Andrew Ng</span>
+</div>
+</div>
+</div><div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+<div class="flex justify-between items-start">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-lowest/80 flex items-center justify-center border border-tertiary/20 shrink-0"><svg class="w-6 h-6" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#1ABCFE"></path><path d="M0 47.5C0 42.2533 4.25329 38 9.5 38H19V47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5Z" fill="#0ACF83"></path><path d="M19 0V19H28.5C33.7467 19 38 14.7467 38 9.5C38 4.25329 33.7467 0 28.5 0H19Z" fill="#FF7262"></path><path d="M0 9.5C0 14.7467 4.25329 19 9.5 19H19V0H9.5C4.25329 0 0 4.25329 0 9.5Z" fill="#F24E1E"></path><path d="M0 28.5C0 33.7467 4.25329 38 9.5 38H19V19H9.5C4.25329 19 0 23.2533 0 28.5Z" fill="#A259FF"></path></svg></div>
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">UI/UX Design &amp; Prototyping</span>
+<span class="font-code-sm text-[11px] text-tertiary/90 font-medium">Figma UI/UX Track</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">Basics of Figma for UX Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Complete UI/UX Fundamentals &amp; Prototyping (9 Lessons)</p>
+</div>
+</div>
+<div class="hidden sm:block">
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Platform</p>
+<p class="font-code-sm text-code-sm text-tertiary font-bold text-right">UI/UX Track</p>
+</div>
+</div>
+<div class="space-y-4 p-4 border-t border-b border-glass-border">
+<p class="text-on-surface-variant/80 text-sm leading-relaxed">Core foundations of user experience design, wireframing, component architecture, responsive auto-layout, and interactive prototyping in Figma.</p>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border">
+<div class="flex items-center gap-3">
+<span class="font-code-sm text-[12px] text-on-surface-variant">Discipline</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-code-sm text-[12px] text-tertiary font-medium">Interface Design &amp; Systems</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Figma</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">UI/UX</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Wireframing</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Interactive Prototyping</span>
+</div>
+</div>
+</div><div class="p-8 rounded-2xl bg-surface-variant/30 backdrop-blur-xl border border-tertiary/20 flex flex-col gap-6 tilt-card shadow-glow col-span-full group" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+<div class="flex justify-between items-start">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-tertiary/10 flex items-center justify-center border border-tertiary/20 shrink-0"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.314 1.832L3.5 12.646l3.328 3.329 14.142-14.143h-6.656z" fill="#54C5F8"></path><path d="M14.314 13.488l-5.636 5.636 3.329 3.329 8.964-8.965h-6.657z" fill="#54C5F8"></path><path d="M8.678 19.124l3.329-3.329 3.328 3.329-3.328 3.328-3.329-3.328z" fill="#02569B"></path><path d="M12.007 15.795l2.307-2.307 2.307 2.307-2.307 2.307-2.307-2.307z" fill="#0175C2"></path></svg></div>
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 bg-tertiary/20 text-tertiary text-[10px] font-bold font-label-caps rounded uppercase tracking-widest">Full In-Depth Flutter Track</span>
+<span class="font-code-sm text-[11px] text-tertiary/90 font-medium">Wael Abo Hamza • Mobile Engineering Track</span>
+<span class="font-code-sm text-[10px] text-on-surface-variant/80 hidden sm:inline">(69 Comprehensive Videos)</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">Learn Flutter from Zero to Hero (2023 - 2024)</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Instructor: Wael Abo Hamza • Mobile Engineering Track (69 Comprehensive Videos)</p>
+</div>
+</div>
+<div class="hidden sm:block">
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest text-right">Track</p>
+<p class="font-code-sm text-code-sm text-tertiary font-bold text-right">Mobile Engineering</p>
+</div>
+</div>
+<div class="space-y-4 p-4 border-t border-b border-glass-border">
+<p class="text-on-surface-variant/80 text-sm leading-relaxed">Intensive end-to-end Flutter development track covering state management, responsive widgets, REST API integration, animations, and production deployment.</p>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-glass-border">
+<div class="flex items-center gap-3">
+<span class="font-code-sm text-[12px] text-on-surface-variant">Track Focus</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-code-sm text-[12px] text-tertiary font-medium">Cross-Platform Architecture</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Flutter</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Dart</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Mobile Architecture</span>
+<span class="font-code-sm text-[10px] bg-surface-lowest px-2 py-1 rounded border border-glass-border text-on-surface-variant">Wael Abo Hamza</span>
+</div>
+</div>
+</div></div>
 </div>
 </div>
 </div>
@@ -876,5 +1009,4 @@
         });
     });
 </script>
-
 </body></html>
